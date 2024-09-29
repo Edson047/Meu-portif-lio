@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000; /* Texto em branco para contraste */
+}
+/* link que ainda não foi visitado */
+header {
+    text-align: center;
+    background-color: rgba(26, 72, 113, 0.7); /* Fundo escuro semitransparente */
+    padding: 20px;
+}
+.background {
+    position: relative;
+    text-align: center;
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#Contatos {
+    color:#fff
+
+}
+.content {
+    position: absolute;
+    top: 20%; /* Distância do topo */
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background: rgba(0, 0, 0, 0.6); /* Fundo escuro semitransparente */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 800px; /* Largura máxima */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+#instagram {
+    background-color: rgb(255, 255, 255);
+    border-width: 10px;
+    border-radius: 1em;
+    opacity: 90%;   
+}
+#linkedin{
+        background-color: rgb(255, 255, 255);
+        border-radius: 1em;
+        opacity: 90%;
+}
+section {
+    padding: 20px;
+    color: #fff; /* Texto em branco para contraste */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.em-construcao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gear-container {
+    margin-right: 10px; /* Espaçamento entre a engrenagem e o texto */
+}
+.spin {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro semitransparente */
+    position: relative;
+}
